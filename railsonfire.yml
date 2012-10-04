@@ -1,0 +1,16 @@
+id: 066e6350-f05e-012f-51ec-1231381359d0
+setup:
+  commands:
+  - bundle install --without production
+  - bundle exec rake db:migrate --trace
+test:
+  commands:
+  - bundle exec rake
+deploy:
+  heroku:
+    staging:
+      name: ''
+    production:
+      name: ''
+ruby_versions:
+- 1.9.3
