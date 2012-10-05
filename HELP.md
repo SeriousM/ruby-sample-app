@@ -41,6 +41,9 @@
 
 ## Heroku
 
+- Install Heroku  
+`gem install heroku`
+
 - Creating local SSH Key for Heroku  
 [https://devcenter.heroku.com/articles/keys#adding_keys_to_heroku](https://devcenter.heroku.com/articles/keys#adding_keys_to_heroku)  
  - If windows complains about failing creation:
