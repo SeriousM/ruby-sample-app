@@ -14,6 +14,9 @@
 `rails generate model <modelname> [<property>:<type> <property>:<type>]`  
 `rails destroy model <modelname>`
 
+- Start local Web Server  
+`rails server`
+
 ## Database
 
 - Migrate Database Changes  
