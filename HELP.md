@@ -66,7 +66,7 @@ git push heroku <branch>
 
 ## Rails Bundler
 
-- Installing Gems defined in Gemfile  
+- Installing Gems defined in Gemfile
 `bundle install`
 
 - Starting Guard + Spork service (unit testing like ncrunch, already configurated)  
