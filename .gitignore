@@ -15,4 +15,8 @@
 /tmp
 /bin
 
+# rubymine ide
 /.idea
+
+# c9.io ide
+/.c9revisions
