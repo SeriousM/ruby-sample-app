@@ -10,6 +10,11 @@
 `rails generate controller <name> [<method> <method>] [--no-test-framework]`  
 `rails destroy controller <name> [<method> <method>]`
 
+`--no-test-framework` will skip the generation of default RSpec tests for the controller
+
+- Generate Integration Tests
+`rails generate integration_test <controller name>`
+
 - Generate / Destroy Model  
 `rails generate model <modelname> [<property>:<type> <property>:<type>]`  
 `rails destroy model <modelname>`
@@ -56,13 +61,18 @@
 `heroku create --stack cedar`
 
 - Push committed content to Heroku  
-git push heroku <branch>
+`git push heroku <branch>`
 
 - Open Heroku Site after push  
 `heroku open`
 
 - Login into Heroku  
 `heroku login`
+
+- Adding a heroku remote (after login)
+`git remote add heroku git@heroku.com:<name of heroku slot>.git`
+
+(actually it would be `git remote add heroku git@heroku.com:stormy-bayou-8492.git`)
 
 ## Rails Bundler
 
