@@ -95,3 +95,8 @@
 
 - Markdown editor
 [http://markdownpad.com/](http://markdownpad.com/)
+
+## Troubleshooting
+
+- `different prefix: "D:/" and "X:/....."`
+Just use the command line `bundle install --path .bundle` as described [here](https://github.com/thomas-mcdonald/bootstrap-sass/issues/96#issuecomment-7355131).
