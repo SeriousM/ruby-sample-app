@@ -12,7 +12,7 @@
 
 `--no-test-framework` will skip the generation of default RSpec tests for the controller
 
-- Generate Integration Tests
+- Generate Integration Tests  
 `rails generate integration_test <controller name>`
 
 - Generate / Destroy Model  
@@ -51,7 +51,7 @@
 
 - Creating local SSH Key for Heroku  
 [https://devcenter.heroku.com/articles/keys#adding_keys_to_heroku](https://devcenter.heroku.com/articles/keys#adding_keys_to_heroku)  
- - If windows complains about failing creation:
+ - If windows complains about failing creation:  
 [http://stackoverflow.com/a/2840909/660428](http://stackoverflow.com/a/2840909/660428)
 
 - Add ssh keys to Heroku  
@@ -69,14 +69,14 @@
 - Login into Heroku  
 `heroku login`
 
-- Adding a heroku remote (after login)
+- Adding a heroku remote (after login)  
 `git remote add heroku git@heroku.com:<name of heroku slot>.git`
 
 (actually it would be `git remote add heroku git@heroku.com:stormy-bayou-8492.git`)
 
 ## Rails Bundler
 
-- Installing Gems defined in Gemfile
+- Installing Gems defined in Gemfile  
 `bundle install`
 
 - Starting Guard + Spork service (unit testing like ncrunch, already configurated)  
@@ -87,11 +87,11 @@
 
 ## Tools
 
-- Good Windows Console Replacement
+- Good Windows Console Replacement  
 [http://code.google.com/p/conemu-maximus5/](http://code.google.com/p/conemu-maximus5/) [http://alternativeto.net/software/conemu/](http://alternativeto.net/software/conemu/)
 
-- Nice text editor
+- Nice text editor  
 [http://www.sublimetext.com/](http://www.sublimetext.com/)
 
-- Markdown editor
+- Markdown editor  
 [http://markdownpad.com/](http://markdownpad.com/)
