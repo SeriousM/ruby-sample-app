@@ -106,7 +106,8 @@
 [c9.io](https://c9.io/)
 
 - Running a ruby server on cloud9  
-[https://docs.c9.io/running_a_rails_app.html](https://docs.c9.io/running_a_rails_app.html)
+[https://docs.c9.io/running_a_rails_app.html](https://docs.c9.io/running_a_rails_app.html)  
+`rails s -b $IP -p $PORT` -> [http://ruby-sample-app.seriousm.c9.io/](http://ruby-sample-app.seriousm.c9.io/)
 
 ## Troubleshooting
 
