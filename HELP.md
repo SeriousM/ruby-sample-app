@@ -96,6 +96,18 @@
 - Markdown editor  
 [http://markdownpad.com/](http://markdownpad.com/)
 
+- CI Server Travis  
+[https://travis-ci.org/](https://travis-ci.org/)
+
+- CI Server Drone.IO  
+[https://drone.io/](https://drone.io/)
+
+## Cloud9 IDE   
+[c9.io](https://c9.io/)
+
+- Running a ruby server on cloud9  
+[https://docs.c9.io/running_a_rails_app.html](https://docs.c9.io/running_a_rails_app.html)
+
 ## Troubleshooting
 
 - `different prefix: "D:/" and "X:/....."`
