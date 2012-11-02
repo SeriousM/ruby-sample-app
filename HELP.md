@@ -109,6 +109,10 @@
 [https://docs.c9.io/running_a_rails_app.html](https://docs.c9.io/running_a_rails_app.html)  
 `rails s -b $IP -p $PORT` -> [http://ruby-sample-app.seriousm.c9.io/](http://ruby-sample-app.seriousm.c9.io/)
 
+- Kill hanging process  
+search for hanging process id with `ps aux`  
+kill the process with `kill -9 <PID>`
+
 ## Troubleshooting
 
 - `different prefix: "D:/" and "X:/....."`
