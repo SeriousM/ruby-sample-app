@@ -5,7 +5,7 @@ cd `dirname $0`
 # change into the parent's dir
 cd ..
 
-echo "Server is accessible under https://$C9_PROJECT.$C9_USER.c9.io/"
+echo "Server is accessible under https://$C9_PROJECT.$C9_USER.c9.io/ or rather https://$OPENSHIFT_APP_DNS/"
 
 # execute the WEBrick server
 rails server -b $IP -p $PORT
