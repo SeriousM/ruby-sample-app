@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# change into the script's dir
+cd `dirname $0`
+# change into the parent's dir
+cd ..
+
+echo "Server is accessible under https://$C9_PROJECT.$C9_USER.c9.io/"
+
+# execute the thin server
+thin start -a $IP -p $PORT
