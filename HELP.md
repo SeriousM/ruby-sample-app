@@ -113,6 +113,9 @@
 search for hanging process id with `ps aux`  
 kill the process with `kill -9 <PID>`
 
+- Environment Variables  
+`printenv` to display them, $NAME to use. $NAME is case sensitive!
+
 ## Troubleshooting
 
 - `different prefix: "D:/" and "X:/....."`
