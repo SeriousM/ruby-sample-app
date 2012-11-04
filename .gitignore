@@ -20,3 +20,6 @@
 
 # c9.io ide
 /.c9revisions
+
+# others
+/.owntmp
