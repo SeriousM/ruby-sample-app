@@ -12,6 +12,7 @@ group :development, :test do
 #  gem 'wdm', '~> 0.0.3'
   gem 'guard-spork', '1.2.0'
   gem 'spork', '0.9.2'
+	gem 'foreman', '0.60.2'
 end
 
 # Gems used only for assets and not required
