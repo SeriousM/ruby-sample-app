@@ -2,7 +2,9 @@
 # More info at https://github.com/guard/guard#readme
 
 # :all_after_pass = prevent guard to run all tests after a previous failing test passes
-guard 'rspec', :version => 2, :all_after_pass => false, :cli => '--drb' do
+# --tty = Color in foreman output. http://stackoverflow.com/questions/9154982/foreman-running-guard-with-color-ouput
+# --drb = search for running service like spork
+guard 'rspec', :version => 2, :all_after_pass => false, :cli => '--tty --drb' do
   watch(%r{^spec/.+_spec\.rb$})
   watch(%r{^lib/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
   watch('spec/spec_helper.rb')  { "spec" }
