@@ -120,3 +120,6 @@ kill the process with `kill -9 <PID>`
 
 - `different prefix: "D:/" and "X:/....."`
 Just use the command line `bundle install --path .bundle` as described [here](https://github.com/thomas-mcdonald/bootstrap-sass/issues/96#issuecomment-7355131)  
+
+- No colors in git commands like `git status` or `git diff`
+[http://thomashunter.name/blog/git-colored-output-shortcut-commands-autocompletion-and-bash-prompt/](http://thomashunter.name/blog/git-colored-output-shortcut-commands-autocompletion-and-bash-prompt/)  
