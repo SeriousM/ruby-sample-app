@@ -46,8 +46,9 @@
 
 ## Heroku
 
-- Install Heroku  
-`gem install heroku`
+- Install Heroku (action.io has it already!)  
+[https://toolbelt.heroku.com/](https://toolbelt.heroku.com/)  
+OBSOLETE --> `gem install heroku`  
 
 - Creating local SSH Key for Heroku  
 [https://devcenter.heroku.com/articles/keys#adding_keys_to_heroku](https://devcenter.heroku.com/articles/keys#adding_keys_to_heroku)  
